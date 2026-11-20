@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>思維導圖｜中藥藥理學知識庫</title>
+<meta name="description" content="互動式思維導圖：以概論、法象藥理、藥理求同、藥理求異、現代藥理、專題拓展六大分支呈現《中藥藥理學》全書架構，節點可點擊導覽。">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<div id="site-header"></div>
+<main><div class="wrap">
+
+  <div class="kicker">Mindmap</div>
+  <h1>互動思維導圖</h1>
+  <p class="lead-text">點擊任一節點可跳轉至對應章節或詞條卡片。導圖涵蓋全書六大分支，由左至右展開：根節點 → 分支 → 子節點。</p>
+
+  <div class="mindmap-toolbar">
+    <button class="btn btn-outline btn-sm" id="zoomIn">＋ 放大</button>
+    <button class="btn btn-outline btn-sm" id="zoomOut">－ 縮小</button>
+    <button class="btn btn-outline btn-sm" id="zoomReset">重置</button>
+    <a class="btn btn-primary btn-sm" href="index.html">回首頁</a>
+  </div>
+
+  <div class="mindmap-wrap">
+    <svg id="mindmapSvg" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="中藥藥理學思維導圖"></svg>
+  </div>
+  <p class="mm-hint">提示：若導圖超出可視範圍，可橫向捲動查看；使用上方按鈕縮放。部分子節點連結至資料庫詞條，點擊後會自動展開卡片。</p>
+
+</div></main>
+<div id="site-footer"></div>
+<script src="assets/js/data.js"></script>
+<script src="assets/js/content.js"></script>
+<script src="assets/js/content-render.js"></script><script src="assets/js/common.js"></script><script src="assets/js/app.js"></script>
+</body>
+</html>

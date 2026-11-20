@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>方藥資料庫｜中藥藥理學知識庫</title>
+<meta name="description" content="可搜尋、可標籤篩選的词條卡片資料庫：藥材、方劑、成分、疾病、機制與概念，附出處章節、證據層級與注意事項。">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div id="site-header"></div>
+<main><div class="wrap">
+
+  <div class="kicker">Database</div>
+  <h1>方藥資料庫</h1>
+  <p class="lead-text">收錄藥材、方劑、成分、疾病、機制與概念詞條。可全文搜尋、依類別與標籤交叉篩選；點擊卡片查看提要、詳述與注意事項。</p>
+
+  <section id="search">
+    <div class="searchbar">
+      <input id="entrySearch" type="search" placeholder="搜尋藥材、方劑、成分、疾病、機制…（如：黃耆多糖、小檗鹼、Treg）" aria-label="全文搜尋詞條">
+    </div>
+    <div class="filter-bar">
+      <div class="filter-group" id="filterType"></div>
+      <div class="filter-group" id="filterTag"></div>
+    </div>
+    <div class="result-meta" id="resultMeta"></div>
+    <div class="entry-grid" id="entryGrid"></div>
+  </section>
+
+  <div class="note"><strong>證據層級說明：</strong>傳統理論、臨床經驗、現代實驗、動物模型、臨床研究 — 卡片右上角標示，避免把研究假說當作確定療效。動物與細胞實驗結果不等同人體療效。</div>
+
+
+<section id="deep-formulas" class="deep-section"></section>
+<section id="deep-quotes" class="deep-section"></section>
+</div></main>
+<div id="site-footer"></div>
+<script src="assets/js/data.js"></script>
+<script src="assets/js/content.js"></script>
+<script src="assets/js/content-render.js"></script><script src="assets/js/common.js"></script><script src="assets/js/app.js"></script>
+</body>
+</html>
